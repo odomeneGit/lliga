@@ -1,0 +1,11 @@
+<table>
+{% for equip in classificacio %}
+    <tr>
+        <td>{{forloop.counter}}</td>
+        <td>{{equip.1}} </td> 
+        <td>({{equip.0}} punts) </td> 
+        
+    </tr>
+{% endfor %}
+</table>
+
